@@ -58,7 +58,9 @@ cleaner and more efficient.
 - search() function to find a specific server across all files
 - delete() function to remove a server from its category
 - Export to CSV for spreadsheet compatibility
-## Sample
+## Sample Session
+
+```
 ======================
 SERVER STATUS MONITOR
 ======================
@@ -78,6 +80,7 @@ Online:      1 server(s)
 Offline:     1 server(s)
 Manage:      1 server(s)
 ================================
+```
 
 ## Author
 
