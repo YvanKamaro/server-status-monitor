@@ -6,7 +6,7 @@ A Python script that reads a list of servers, categorizes them by status (online
 
 1. Interactive input – Add servers via command line with validation
 2. Duplicate prevention – Automatically skips duplicate entries
-3. Status categorization – Splits servers into online, offline, and manage groups
+3. Status categorization – Strips, Splits servers into online, offline, and manage groups
 4. Timestamp tracking – Adds datetime to each entry for audit trail
 5. Smart file handling – Only creates files when servers exist in that category
 6. Console summary – Shows count of servers in each status
@@ -16,7 +16,6 @@ A Python script that reads a list of servers, categorizes them by status (online
 - Python 3.8
 - File I/O (read/write/append modes)
 - datetime module for timestamps
-- any() with generator expressions for input validation
 - F-strings for clean output formatting
 
 ## How to run
@@ -59,6 +58,26 @@ cleaner and more efficient.
 - search() function to find a specific server across all files
 - delete() function to remove a server from its category
 - Export to CSV for spreadsheet compatibility
+## Sample
+======================
+SERVER STATUS MONITOR
+======================
+
+Enter server details(e.g Mail01 online/offline/manage)
+When finished enter q
+
+> web01 online
+> db01 offline
+> mail01 manage
+> q
+
+➤ 3 Servers.
+
+=======SERVER STATUS REPORT========
+Online:      1 server(s)
+Offline:     1 server(s)
+Manage:      1 server(s)
+================================
 
 ## Author
 
