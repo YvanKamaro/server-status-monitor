@@ -4,12 +4,12 @@ A Python script that reads a list of servers, categorizes them by status (online
 
 ## Features
 
-✅ Interactive input – Add servers via command line with validation
-✅ Duplicate prevention – Automatically skips duplicate entries
-✅ Status categorization – Splits servers into online, offline, and manage groups
-✅ Timestamp tracking – Adds datetime to each entry for audit trail
-✅ Smart file handling – Only creates files when servers exist in that category
-✅ Console summary – Shows count of servers in each status
+1. Interactive input – Add servers via command line with validation
+2. Duplicate prevention – Automatically skips duplicate entries
+3. Status categorization – Splits servers into online, offline, and manage groups
+4. Timestamp tracking – Adds datetime to each entry for audit trail
+5. Smart file handling – Only creates files when servers exist in that category
+6. Console summary – Shows count of servers in each status
 
 ## Technologies
 
